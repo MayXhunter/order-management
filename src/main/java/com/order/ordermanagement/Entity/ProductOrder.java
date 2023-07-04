@@ -23,7 +23,7 @@ public class ProductOrder {
     private Double price;
     private Double vat;
 
-    // Constructors, getters, and setters
+
 
     public ProductOrder() {
     }
@@ -88,24 +88,24 @@ public class ProductOrder {
     }
 
     private Product convertToProductEntity(ProductDTO productDTO) {
-        // Convert ProductDTO to Product entity manually or using a mapper
-        // Example:
+        // Convert ProductDTO to Product entity manually
+
         Product product = new Product();
         product.setId(productDTO.getId());
         product.setName(productDTO.getName());
         product.setPrice(productDTO.getPrice());
-        // Set other properties as needed
+
         return product;
     }
 
     private Order convertToOrderEntity(OrderDTO orderDTO) {
-        // Convert OrderDTO to Order entity manually or using a mapper
-        // Example:
+        // Convert OrderDTO to Order entity manually
+
         Order order = new Order();
         order.setId(orderDTO.getId());
-        // Set other properties as needed
+
         return order;
     }
 
-    // Additional methods and business logic
+
 }

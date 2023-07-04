@@ -61,7 +61,7 @@ public class Stock {
         product.setId(productDTO.getId());
         product.setName(productDTO.getName());
         product.setPrice(productDTO.getPrice());
-        // Set other properties as needed
+
         return product;
     }
 

@@ -71,5 +71,5 @@ public class StockService {
         stockRepository.deleteById(stockId);
     }
 
-    // Additional methods for performing business logic, etc.
+
 }
